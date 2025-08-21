@@ -1,4 +1,4 @@
-name: Host Info Server Build, Test, Scan, & Containerize Automation
+name: Host Info Server Build, Test, Lint & Scan Automation
 
 on:
   push:
