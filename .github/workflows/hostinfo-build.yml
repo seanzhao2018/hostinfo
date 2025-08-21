@@ -1,8 +1,11 @@
 name: Host Info Server Build Automation
 
 on:
+  push:
+    paths:
+      - python/**
   workflow_dispatch:
-
+  
 jobs:
   test:
     runs-on: ubuntu-latest
